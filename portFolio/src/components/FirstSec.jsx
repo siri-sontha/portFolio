@@ -22,10 +22,7 @@ export default function FirstSec() {
                     <p>MY PORTFOLIO</p>
                     <p>SIRI</p>
                     <p>SONTHA</p>
-                    <div>
-                        <button>WORK WITH ME</button>
-                        <button>TALK TO ME</button>
-                    </div>
+                    <button><a href="https://www.linkedin.com/messaging/thread/new/?recipients=your-profile-id" target="_blank" rel="noopener noreferrer">talk to ME</a></button>
                 </div>
 
             </section>

@@ -15,10 +15,10 @@ export default function Navbar() {
 
                     <div className="navSecTwo">
                         <ul>
-                            <li>ABOUT ME</li>
-                            <li>MY WORKS</li>
-                            <li>CONTACT</li>
-                            <li>REVIEWS</li>
+                            <li><a href="#">ABOUT ME</a></li>
+                            <li><a href="#">MY WORKS</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            {/* <li><a href="">REVIEWS</a></li> */}
                         </ul>
                     </div>
 
