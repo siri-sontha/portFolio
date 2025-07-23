@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bogart');
+
+:root{
+    --font1: "Montserrat", sans-serif;
+    --font2: 'Bogart', sans-serif;
+}
+
+*{
+    padding: 0 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    white-space: nowrap;
+}
+
+body{
+    background-image: linear-gradient(to right,#F9CDC3,#F9CDCC,#F9CDD6,#FACEDF,#FACEE8,#FACEF2,#FACEFB);
+}
+
+html{
+    font-size: 26px;
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 62em){
+    html{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 48em){
+    html{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 36em){
+    html{
+        font-size: 12px;
+    }
+}
